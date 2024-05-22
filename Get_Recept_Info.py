@@ -72,5 +72,3 @@ def get_instructions(soup):
 
 def get_time(soup):
     return soup.find_all('span', class_='k-text-style--label-xs')[30].text
-
-get_recept_info('/se/recipes/3582-mari-bergman-omelett-med-ost-och-kalkon/')
